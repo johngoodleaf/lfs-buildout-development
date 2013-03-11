@@ -83,6 +83,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     "django.contrib.redirects.middleware.RedirectFallbackMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "pagination.middleware.PaginationMiddleware",
     "lfs.utils.middleware.AJAXSimpleExceptionResponse",
     "lfs.utils.middleware.ProfileMiddleware",
@@ -159,6 +160,7 @@ INSTALLED_APPS = (
     "lfs_bench",
     "django_nose",
     "lfs_criterion_us_states",
+    "corsheaders",
 )
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
@@ -312,6 +314,10 @@ LOGGING = {
         },
     }
 }
+
+# This leaves CORS wide open; only for dev use
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 try:
     from local_settings import *
