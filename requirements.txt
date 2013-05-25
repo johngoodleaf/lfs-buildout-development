@@ -1,5 +1,6 @@
 #
 Django<1.5
+dj-database-url>=0.2.1
 django-countries>=0.1
 django-compressor>=0.1
 django-extensions>=0.1
@@ -22,7 +23,7 @@ south>=0.1
 windmill>=0.1
 django-cors-headers>=0.1
 git+https://github.com/johngoodleaf/django-lfs.git#egg=lfs
-git+https://github.com/diefenbach/lfs-theme.git#egg=lfs_theme
+git+https://github.com/johngoodleaf/lfs-theme.git#egg=lfs_theme
 git+https://github.com/diefenbach/django-portlets.git#egg=portlets
 git+https://github.com/diefenbach/django-reviews.git#egg=reviews
 git+https://github.com/diefenbach/lfs-contact.git
