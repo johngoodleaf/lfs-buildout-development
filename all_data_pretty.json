@@ -1,0 +1,7179 @@
+[
+  {
+    "fields": {
+      "domain": "example.com",
+      "name": "example.com"
+    },
+    "model": "sites.site",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "content_id": 1,
+      "content_type": 22,
+      "portlet_id": 1,
+      "portlet_type": 73,
+      "position": 999,
+      "slot": 2
+    },
+    "model": "portlets.portletassignment",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "content_id": 1,
+      "content_type": 22,
+      "portlet_id": 1,
+      "portlet_type": 74,
+      "position": 999,
+      "slot": 1
+    },
+    "model": "portlets.portletassignment",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "content_id": 1,
+      "content_type": 22,
+      "portlet_id": 1,
+      "portlet_type": 76,
+      "position": 999,
+      "slot": 1
+    },
+    "model": "portlets.portletassignment",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Average Rating",
+      "type": "averageratingportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Cart",
+      "type": "cartportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Categories",
+      "type": "categoriesportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Delivery Time",
+      "type": "deliverytimeportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Featured Products",
+      "type": "featuredportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Filter",
+      "type": "filterportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "For sale",
+      "type": "forsaleportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Latest Products",
+      "type": "latestportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Pages",
+      "type": "pagesportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Recent Products",
+      "type": "recentproductsportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Related Products",
+      "type": "relatedproductsportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Text",
+      "type": "textportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "active": true,
+      "name": "Topseller",
+      "type": "topsellerportlet"
+    },
+    "model": "portlets.portletregistration",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Left"
+    },
+    "model": "portlets.slot",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Right"
+    },
+    "model": "portlets.slot",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "city": "",
+      "country": 1,
+      "customer": null,
+      "firstname": "",
+      "lastname": "",
+      "line1": null,
+      "line2": null,
+      "order": null,
+      "state": null,
+      "zip_code": ""
+    },
+    "model": "addresses.baseaddress",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "city": "",
+      "country": 1,
+      "customer": null,
+      "firstname": "",
+      "lastname": "",
+      "line1": null,
+      "line2": null,
+      "order": null,
+      "state": null,
+      "zip_code": ""
+    },
+    "model": "addresses.baseaddress",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "city": "",
+      "country": 1,
+      "customer": null,
+      "firstname": "",
+      "lastname": "",
+      "line1": null,
+      "line2": null,
+      "order": null,
+      "state": null,
+      "zip_code": ""
+    },
+    "model": "addresses.baseaddress",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "city": "",
+      "country": 1,
+      "customer": null,
+      "firstname": "",
+      "lastname": "",
+      "line1": null,
+      "line2": null,
+      "order": null,
+      "state": null,
+      "zip_code": ""
+    },
+    "model": "addresses.baseaddress",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "city": "",
+      "country": 1,
+      "customer": null,
+      "firstname": "",
+      "lastname": "",
+      "line1": null,
+      "line2": null,
+      "order": null,
+      "state": null,
+      "zip_code": ""
+    },
+    "model": "addresses.baseaddress",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "city": "",
+      "country": 1,
+      "customer": null,
+      "firstname": "",
+      "lastname": "",
+      "line1": null,
+      "line2": null,
+      "order": null,
+      "state": null,
+      "zip_code": ""
+    },
+    "model": "addresses.baseaddress",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "company_name": null,
+      "email": null,
+      "phone": null
+    },
+    "model": "addresses.address",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "company_name": null,
+      "email": null,
+      "phone": null
+    },
+    "model": "addresses.address",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "company_name": null,
+      "email": null,
+      "phone": null
+    },
+    "model": "addresses.address",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "company_name": null,
+      "email": null,
+      "phone": null
+    },
+    "model": "addresses.address",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "company_name": null,
+      "email": null,
+      "phone": null
+    },
+    "model": "addresses.address",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "company_name": null,
+      "email": null,
+      "phone": null
+    },
+    "model": "addresses.address",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "code": "us",
+      "name": "USA"
+    },
+    "model": "core.country",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Footer"
+    },
+    "model": "core.actiongroup",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Tabs"
+    },
+    "model": "core.actiongroup",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "group": 1,
+      "link": "/contact",
+      "parent": null,
+      "position": 1,
+      "title": "Contact"
+    },
+    "model": "core.action",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "group": 2,
+      "link": "/page/terms-and-conditions",
+      "parent": null,
+      "position": 1,
+      "title": "Terms and Conditions"
+    },
+    "model": "core.action",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "active": true,
+      "group": 2,
+      "link": "/page/imprint",
+      "parent": null,
+      "position": 2,
+      "title": "Imprint"
+    },
+    "model": "core.action",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "category_cols": 1,
+      "checkout_type": 0,
+      "confirm_toc": false,
+      "default_country": 1,
+      "delivery_time": 1,
+      "description": "<h1 class=\"first-heading\">Stadius Catalog -- AT&T Performing Arts Center</h1>\n",
+      "from_email": "john@doe.com",
+      "ga_ecommerce_tracking": false,
+      "ga_site_tracking": false,
+      "google_analytics_id": "",
+      "image": "",
+      "invoice_countries": [
+        1
+      ],
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "LFS",
+      "notification_emails": "john@doe.com",
+      "price_calculator": "lfs.gross_price.GrossPriceCalculator",
+      "product_cols": 1,
+      "product_rows": 10,
+      "shipping_countries": [
+        1
+      ],
+      "shop_owner": "John Doe",
+      "static_block": null,
+      "use_international_currency_code": false
+    },
+    "model": "core.shop",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "version": "0.7"
+    },
+    "model": "core.application",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 2,
+      "creation_date": "2013-03-31T22:32:49.524",
+      "modification_date": "2013-03-31T22:32:49.524",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 2,
+      "creation_date": "2013-03-31T22:32:49.531",
+      "modification_date": "2013-03-31T22:32:49.531",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 3,
+      "creation_date": "2013-03-31T22:33:35.271",
+      "modification_date": "2013-03-31T22:33:35.271",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 3,
+      "creation_date": "2013-03-31T22:33:35.277",
+      "modification_date": "2013-03-31T22:33:35.277",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 4,
+      "creation_date": "2013-03-31T22:35:17.688",
+      "modification_date": "2013-03-31T22:35:17.688",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 4,
+      "creation_date": "2013-03-31T22:35:17.695",
+      "modification_date": "2013-03-31T22:35:17.695",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 5,
+      "creation_date": "2013-04-01T21:43:16.816",
+      "modification_date": "2013-04-01T21:43:16.816",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 5,
+      "creation_date": "2013-04-01T21:43:16.824",
+      "modification_date": "2013-04-01T21:43:16.824",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 6,
+      "creation_date": "2013-04-01T21:43:48.112",
+      "modification_date": "2013-04-01T21:43:48.112",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 6,
+      "creation_date": "2013-04-01T21:43:48.119",
+      "modification_date": "2013-04-01T21:43:48.119",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 7,
+      "creation_date": "2013-04-01T21:54:04.048",
+      "modification_date": "2013-04-01T21:54:04.048",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 7,
+      "creation_date": "2013-04-01T21:54:04.055",
+      "modification_date": "2013-04-01T21:54:04.055",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 8,
+      "creation_date": "2013-04-01T21:55:58.366",
+      "modification_date": "2013-04-01T21:55:58.366",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 8,
+      "creation_date": "2013-04-01T21:55:58.372",
+      "modification_date": "2013-04-01T21:55:58.372",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 9,
+      "creation_date": "2013-04-01T21:57:37.976",
+      "modification_date": "2013-04-01T21:57:37.976",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 9,
+      "creation_date": "2013-04-01T21:57:37.983",
+      "modification_date": "2013-04-01T21:57:37.983",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 10,
+      "creation_date": "2013-04-01T22:02:26.619",
+      "modification_date": "2013-04-01T22:02:26.619",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 10,
+      "creation_date": "2013-04-01T22:02:26.626",
+      "modification_date": "2013-04-01T22:02:26.626",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 11,
+      "creation_date": "2013-04-01T22:03:19.514",
+      "modification_date": "2013-04-01T22:03:19.514",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 11,
+      "creation_date": "2013-04-01T22:03:19.527",
+      "modification_date": "2013-04-01T22:03:19.527",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 12,
+      "creation_date": "2013-04-01T22:08:48.940",
+      "modification_date": "2013-04-01T22:08:48.940",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 12,
+      "creation_date": "2013-04-01T22:08:48.947",
+      "modification_date": "2013-04-01T22:08:48.947",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 13,
+      "creation_date": "2013-04-01T22:11:29.688",
+      "modification_date": "2013-04-01T22:11:29.688",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 13,
+      "creation_date": "2013-04-01T22:11:29.695",
+      "modification_date": "2013-04-01T22:11:29.695",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 14,
+      "creation_date": "2013-04-01T22:12:19.155",
+      "modification_date": "2013-04-01T22:12:19.155",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 14,
+      "creation_date": "2013-04-01T22:12:19.162",
+      "modification_date": "2013-04-01T22:12:19.162",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 15,
+      "creation_date": "2013-04-01T22:13:09.583",
+      "modification_date": "2013-04-01T22:13:09.583",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 15,
+      "creation_date": "2013-04-01T22:13:09.590",
+      "modification_date": "2013-04-01T22:13:09.590",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 16,
+      "creation_date": "2013-04-01T22:14:01.735",
+      "modification_date": "2013-04-01T22:14:01.735",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 16,
+      "creation_date": "2013-04-01T22:14:01.741",
+      "modification_date": "2013-04-01T22:14:01.741",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 17,
+      "creation_date": "2013-04-01T22:15:16.501",
+      "modification_date": "2013-04-01T22:15:16.501",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 17,
+      "creation_date": "2013-04-01T22:15:16.507",
+      "modification_date": "2013-04-01T22:15:16.507",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 18,
+      "creation_date": "2013-04-01T22:15:29.953",
+      "modification_date": "2013-04-01T22:15:29.953",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 18,
+      "creation_date": "2013-04-01T22:15:29.960",
+      "modification_date": "2013-04-01T22:15:29.960",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 19,
+      "creation_date": "2013-04-01T22:16:20.487",
+      "modification_date": "2013-04-01T22:16:20.487",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 19,
+      "creation_date": "2013-04-01T22:16:20.493",
+      "modification_date": "2013-04-01T22:16:20.493",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 20,
+      "creation_date": "2013-04-02T00:26:10.064",
+      "modification_date": "2013-04-02T00:26:10.064",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 20,
+      "creation_date": "2013-04-02T00:26:10.071",
+      "modification_date": "2013-04-02T00:26:10.071",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 21,
+      "creation_date": "2013-04-02T00:27:43.524",
+      "modification_date": "2013-04-02T00:27:43.524",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 21,
+      "creation_date": "2013-04-02T00:27:43.531",
+      "modification_date": "2013-04-02T00:27:43.531",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 22,
+      "creation_date": "2013-04-02T00:27:56.866",
+      "modification_date": "2013-04-02T00:27:56.866",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 22,
+      "creation_date": "2013-04-02T00:27:56.872",
+      "modification_date": "2013-04-02T00:27:56.872",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 23,
+      "creation_date": "2013-04-02T00:36:28.441",
+      "modification_date": "2013-04-02T00:36:28.441",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 43
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 23,
+      "creation_date": "2013-04-02T00:36:28.448",
+      "modification_date": "2013-04-02T00:36:28.448",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 44
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 24,
+      "creation_date": "2013-04-02T10:32:11.170",
+      "modification_date": "2013-04-02T10:32:11.170",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 45
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 25,
+      "creation_date": "2013-04-02T11:01:08.892",
+      "modification_date": "2013-04-02T11:01:08.892",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 46
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 26,
+      "creation_date": "2013-04-02T11:04:53.987",
+      "modification_date": "2013-04-02T11:04:53.987",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 47
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 27,
+      "creation_date": "2013-04-02T11:07:18.268",
+      "modification_date": "2013-04-02T11:07:18.268",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 48
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 27,
+      "creation_date": "2013-04-02T11:07:18.276",
+      "modification_date": "2013-04-02T11:07:18.276",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 49
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 28,
+      "creation_date": "2013-04-02T14:38:25.175",
+      "modification_date": "2013-04-02T14:38:25.175",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 50
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 28,
+      "creation_date": "2013-04-02T14:38:25.187",
+      "modification_date": "2013-04-02T14:38:25.187",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 51
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 28,
+      "creation_date": "2013-04-02T14:38:25.193",
+      "modification_date": "2013-04-02T14:38:25.193",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 52
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 28,
+      "creation_date": "2013-04-02T14:38:25.199",
+      "modification_date": "2013-04-02T14:38:25.200",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 53
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 29,
+      "creation_date": "2013-04-02T14:39:15.452",
+      "modification_date": "2013-04-02T14:39:15.452",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 54
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 30,
+      "creation_date": "2013-04-02T14:59:13.908",
+      "modification_date": "2013-04-02T14:59:13.908",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 55
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 30,
+      "creation_date": "2013-04-02T14:59:13.914",
+      "modification_date": "2013-04-02T14:59:13.914",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 56
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 30,
+      "creation_date": "2013-04-02T14:59:13.920",
+      "modification_date": "2013-04-02T14:59:13.920",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 57
+  },
+  {
+    "fields": {
+      "amount": 0.0,
+      "cart": 31,
+      "creation_date": "2013-04-03T00:48:07.670",
+      "modification_date": "2013-04-03T00:48:07.670",
+      "product": 18
+    },
+    "model": "cart.cartitem",
+    "pk": 58
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 31,
+      "creation_date": "2013-04-03T00:48:07.677",
+      "modification_date": "2013-04-03T00:48:07.677",
+      "product": 38
+    },
+    "model": "cart.cartitem",
+    "pk": 59
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 31,
+      "creation_date": "2013-04-03T00:48:07.682",
+      "modification_date": "2013-04-03T00:48:07.682",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 60
+  },
+  {
+    "fields": {
+      "amount": 0.0,
+      "cart": 32,
+      "creation_date": "2013-04-03T00:52:39.407",
+      "modification_date": "2013-04-03T00:52:39.407",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 61
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 33,
+      "creation_date": "2013-04-03T00:53:33.655",
+      "modification_date": "2013-04-03T00:53:33.655",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 62
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 34,
+      "creation_date": "2013-04-03T01:07:21.939",
+      "modification_date": "2013-04-03T01:07:21.939",
+      "product": 40
+    },
+    "model": "cart.cartitem",
+    "pk": 63
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 35,
+      "creation_date": "2013-04-03T01:17:37.887",
+      "modification_date": "2013-04-03T01:17:37.887",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 64
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 36,
+      "creation_date": "2013-04-03T03:38:42.350",
+      "modification_date": "2013-04-03T03:38:42.350",
+      "product": 40
+    },
+    "model": "cart.cartitem",
+    "pk": 65
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 37,
+      "creation_date": "2013-04-03T10:26:08.206",
+      "modification_date": "2013-04-03T10:26:08.206",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 66
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 37,
+      "creation_date": "2013-04-03T10:26:08.213",
+      "modification_date": "2013-04-03T10:26:08.213",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 67
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 37,
+      "creation_date": "2013-04-03T10:26:08.219",
+      "modification_date": "2013-04-03T10:26:08.219",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 68
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 38,
+      "creation_date": "2013-04-03T10:31:02.992",
+      "modification_date": "2013-04-03T10:31:02.992",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 69
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 38,
+      "creation_date": "2013-04-03T10:31:02.998",
+      "modification_date": "2013-04-03T10:31:02.998",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 70
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 38,
+      "creation_date": "2013-04-03T10:31:03.004",
+      "modification_date": "2013-04-03T10:31:03.004",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 71
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 39,
+      "creation_date": "2013-04-03T10:32:55.922",
+      "modification_date": "2013-04-03T10:32:55.922",
+      "product": 16
+    },
+    "model": "cart.cartitem",
+    "pk": 72
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 39,
+      "creation_date": "2013-04-03T10:32:55.928",
+      "modification_date": "2013-04-03T10:32:55.928",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 73
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 39,
+      "creation_date": "2013-04-03T10:32:55.934",
+      "modification_date": "2013-04-03T10:32:55.934",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 74
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 40,
+      "creation_date": "2013-04-03T10:34:30.729",
+      "modification_date": "2013-04-03T10:34:30.730",
+      "product": 16
+    },
+    "model": "cart.cartitem",
+    "pk": 75
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 40,
+      "creation_date": "2013-04-03T10:34:30.737",
+      "modification_date": "2013-04-03T10:34:30.737",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 76
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 40,
+      "creation_date": "2013-04-03T10:34:30.743",
+      "modification_date": "2013-04-03T10:34:30.743",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 77
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 41,
+      "creation_date": "2013-04-03T10:35:25.023",
+      "modification_date": "2013-04-03T10:35:25.023",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 78
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 42,
+      "creation_date": "2013-04-03T10:36:23.761",
+      "modification_date": "2013-04-03T10:36:23.761",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 79
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 43,
+      "creation_date": "2013-04-03T10:39:52.952",
+      "modification_date": "2013-04-03T10:39:52.952",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 80
+  },
+  {
+    "fields": {
+      "amount": 5.0,
+      "cart": 44,
+      "creation_date": "2013-04-03T10:45:44.658",
+      "modification_date": "2013-04-03T10:45:44.658",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 81
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 45,
+      "creation_date": "2013-04-03T10:47:23.854",
+      "modification_date": "2013-04-03T10:47:23.854",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 82
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 46,
+      "creation_date": "2013-04-03T14:26:55.337",
+      "modification_date": "2013-04-03T14:26:55.337",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 83
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 46,
+      "creation_date": "2013-04-03T14:26:55.344",
+      "modification_date": "2013-04-03T14:26:55.344",
+      "product": 8
+    },
+    "model": "cart.cartitem",
+    "pk": 84
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 47,
+      "creation_date": "2013-04-03T15:07:44.150",
+      "modification_date": "2013-04-03T15:07:44.150",
+      "product": 41
+    },
+    "model": "cart.cartitem",
+    "pk": 85
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 47,
+      "creation_date": "2013-04-03T15:07:44.157",
+      "modification_date": "2013-04-03T15:07:44.157",
+      "product": 33
+    },
+    "model": "cart.cartitem",
+    "pk": 86
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 48,
+      "creation_date": "2013-04-03T16:22:47.100",
+      "modification_date": "2013-04-03T16:22:47.100",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 87
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 49,
+      "creation_date": "2013-04-03T16:40:23.173",
+      "modification_date": "2013-04-03T16:40:23.173",
+      "product": 42
+    },
+    "model": "cart.cartitem",
+    "pk": 88
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 50,
+      "creation_date": "2013-04-11T16:03:26.948",
+      "modification_date": "2013-04-11T16:03:26.948",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 89
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 51,
+      "creation_date": "2013-04-15T22:12:56.170",
+      "modification_date": "2013-04-15T22:12:56.170",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 90
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 51,
+      "creation_date": "2013-04-15T22:12:56.176",
+      "modification_date": "2013-04-15T22:12:56.176",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 91
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 52,
+      "creation_date": "2013-04-17T04:24:24.800",
+      "modification_date": "2013-04-17T04:24:24.800",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 92
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 53,
+      "creation_date": "2013-04-17T04:40:10.252",
+      "modification_date": "2013-04-17T04:40:10.253",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 93
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 54,
+      "creation_date": "2013-04-17T04:42:23.271",
+      "modification_date": "2013-04-17T04:42:23.271",
+      "product": 11
+    },
+    "model": "cart.cartitem",
+    "pk": 94
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 55,
+      "creation_date": "2013-04-17T15:30:11.668",
+      "modification_date": "2013-04-17T15:30:11.668",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 95
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 56,
+      "creation_date": "2013-04-17T15:46:15.159",
+      "modification_date": "2013-04-17T15:46:15.159",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 96
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 57,
+      "creation_date": "2013-04-17T17:09:38.262",
+      "modification_date": "2013-04-17T17:09:38.262",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 97
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 58,
+      "creation_date": "2013-04-17T17:26:09.715",
+      "modification_date": "2013-04-17T17:26:09.715",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 98
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 59,
+      "creation_date": "2013-04-17T18:14:05.464",
+      "modification_date": "2013-04-17T18:14:05.464",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 99
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 60,
+      "creation_date": "2013-04-18T00:37:02.138",
+      "modification_date": "2013-04-18T00:37:02.138",
+      "product": 15
+    },
+    "model": "cart.cartitem",
+    "pk": 100
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 61,
+      "creation_date": "2013-04-18T01:59:38.797",
+      "modification_date": "2013-04-18T01:59:38.797",
+      "product": 16
+    },
+    "model": "cart.cartitem",
+    "pk": 101
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 62,
+      "creation_date": "2013-04-18T04:16:37.790",
+      "modification_date": "2013-04-18T04:16:37.790",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 102
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 64,
+      "creation_date": "2013-04-18T06:14:33.019",
+      "modification_date": "2013-04-18T06:14:33.019",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 103
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 65,
+      "creation_date": "2013-04-18T06:15:45.720",
+      "modification_date": "2013-04-18T06:15:45.720",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 104
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 65,
+      "creation_date": "2013-04-18T06:15:45.726",
+      "modification_date": "2013-04-18T06:15:45.726",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 105
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 66,
+      "creation_date": "2013-04-18T13:50:50.887",
+      "modification_date": "2013-04-18T13:50:50.887",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 106
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 68,
+      "creation_date": "2013-04-19T03:02:17.222",
+      "modification_date": "2013-04-19T03:02:17.222",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 107
+  },
+  {
+    "fields": {
+      "amount": 5.0,
+      "cart": 68,
+      "creation_date": "2013-04-19T03:02:17.230",
+      "modification_date": "2013-04-19T03:02:17.230",
+      "product": 11
+    },
+    "model": "cart.cartitem",
+    "pk": 108
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 68,
+      "creation_date": "2013-04-19T03:02:17.236",
+      "modification_date": "2013-04-19T03:02:17.236",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 109
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 68,
+      "creation_date": "2013-04-19T03:02:17.242",
+      "modification_date": "2013-04-19T03:02:17.242",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 110
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 69,
+      "creation_date": "2013-04-19T03:34:24.522",
+      "modification_date": "2013-04-19T03:34:24.522",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 111
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 70,
+      "creation_date": "2013-04-19T04:21:53.814",
+      "modification_date": "2013-04-19T04:21:53.814",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 112
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 70,
+      "creation_date": "2013-04-19T04:21:53.821",
+      "modification_date": "2013-04-19T04:21:53.821",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 113
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 70,
+      "creation_date": "2013-04-19T04:21:53.827",
+      "modification_date": "2013-04-19T04:21:53.827",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 114
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 70,
+      "creation_date": "2013-04-19T04:21:53.833",
+      "modification_date": "2013-04-19T04:21:53.833",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 115
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 71,
+      "creation_date": "2013-04-19T06:18:36.654",
+      "modification_date": "2013-04-19T06:18:36.654",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 116
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 72,
+      "creation_date": "2013-04-19T06:22:20.600",
+      "modification_date": "2013-04-19T06:22:20.601",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 117
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 72,
+      "creation_date": "2013-04-19T06:22:20.607",
+      "modification_date": "2013-04-19T06:22:20.607",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 118
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 72,
+      "creation_date": "2013-04-19T06:22:20.613",
+      "modification_date": "2013-04-19T06:22:20.613",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 119
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 72,
+      "creation_date": "2013-04-19T06:22:20.619",
+      "modification_date": "2013-04-19T06:22:20.619",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 120
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 73,
+      "creation_date": "2013-04-19T06:26:38.100",
+      "modification_date": "2013-04-19T06:26:38.100",
+      "product": 21
+    },
+    "model": "cart.cartitem",
+    "pk": 121
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 73,
+      "creation_date": "2013-04-19T06:26:38.107",
+      "modification_date": "2013-04-19T06:26:38.107",
+      "product": 4
+    },
+    "model": "cart.cartitem",
+    "pk": 122
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 73,
+      "creation_date": "2013-04-19T06:26:38.131",
+      "modification_date": "2013-04-19T06:26:38.131",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 123
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 73,
+      "creation_date": "2013-04-19T06:26:38.137",
+      "modification_date": "2013-04-19T06:26:38.137",
+      "product": 29
+    },
+    "model": "cart.cartitem",
+    "pk": 124
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 73,
+      "creation_date": "2013-04-19T06:26:38.143",
+      "modification_date": "2013-04-19T06:26:38.143",
+      "product": 33
+    },
+    "model": "cart.cartitem",
+    "pk": 125
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 74,
+      "creation_date": "2013-04-19T06:28:32.894",
+      "modification_date": "2013-04-19T06:28:32.894",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 126
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 75,
+      "creation_date": "2013-04-19T06:31:27.920",
+      "modification_date": "2013-04-19T06:31:27.920",
+      "product": 16
+    },
+    "model": "cart.cartitem",
+    "pk": 127
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 76,
+      "creation_date": "2013-04-19T06:32:11.521",
+      "modification_date": "2013-04-19T06:32:11.521",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 128
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 77,
+      "creation_date": "2013-04-19T06:56:29.556",
+      "modification_date": "2013-04-19T06:56:29.556",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 129
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 78,
+      "creation_date": "2013-04-19T07:01:50.106",
+      "modification_date": "2013-04-19T07:01:50.106",
+      "product": 16
+    },
+    "model": "cart.cartitem",
+    "pk": 130
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 78,
+      "creation_date": "2013-04-19T07:01:50.113",
+      "modification_date": "2013-04-19T07:01:50.114",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 131
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 78,
+      "creation_date": "2013-04-19T07:01:50.120",
+      "modification_date": "2013-04-19T07:01:50.120",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 132
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 79,
+      "creation_date": "2013-04-19T07:26:38.660",
+      "modification_date": "2013-04-19T07:26:38.660",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 133
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 80,
+      "creation_date": "2013-04-19T08:38:21.913",
+      "modification_date": "2013-04-19T08:38:21.913",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 134
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 81,
+      "creation_date": "2013-04-19T08:39:12.302",
+      "modification_date": "2013-04-19T08:39:12.302",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 135
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 82,
+      "creation_date": "2013-04-19T08:40:41.937",
+      "modification_date": "2013-04-19T08:40:41.937",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 136
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 83,
+      "creation_date": "2013-04-19T14:26:38.884",
+      "modification_date": "2013-04-19T14:26:38.884",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 137
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 84,
+      "creation_date": "2013-04-19T14:33:08.321",
+      "modification_date": "2013-04-19T14:33:08.321",
+      "product": 2
+    },
+    "model": "cart.cartitem",
+    "pk": 138
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 85,
+      "creation_date": "2013-04-19T14:36:29.723",
+      "modification_date": "2013-04-19T14:36:29.723",
+      "product": 42
+    },
+    "model": "cart.cartitem",
+    "pk": 139
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 86,
+      "creation_date": "2013-04-19T19:54:40.192",
+      "modification_date": "2013-04-19T19:54:40.192",
+      "product": 40
+    },
+    "model": "cart.cartitem",
+    "pk": 140
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 87,
+      "creation_date": "2013-04-19T20:24:23.528",
+      "modification_date": "2013-04-19T20:24:23.528",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 141
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 88,
+      "creation_date": "2013-04-19T20:33:05.524",
+      "modification_date": "2013-04-19T20:33:05.524",
+      "product": 42
+    },
+    "model": "cart.cartitem",
+    "pk": 142
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 89,
+      "creation_date": "2013-04-19T20:41:46.248",
+      "modification_date": "2013-04-19T20:41:46.248",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 143
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 90,
+      "creation_date": "2013-04-27T18:26:34.859",
+      "modification_date": "2013-04-27T18:26:34.859",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 144
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 90,
+      "creation_date": "2013-04-27T18:26:34.867",
+      "modification_date": "2013-04-27T18:26:34.867",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 145
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 91,
+      "creation_date": "2013-04-28T01:45:09.338",
+      "modification_date": "2013-04-28T01:45:09.338",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 146
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 91,
+      "creation_date": "2013-04-28T01:45:09.345",
+      "modification_date": "2013-04-28T01:45:09.345",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 147
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 92,
+      "creation_date": "2013-04-28T03:45:27.622",
+      "modification_date": "2013-04-28T03:45:27.622",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 148
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 93,
+      "creation_date": "2013-04-29T04:30:55.783",
+      "modification_date": "2013-04-29T04:30:55.783",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 149
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 94,
+      "creation_date": "2013-04-29T04:31:57.852",
+      "modification_date": "2013-04-29T04:31:57.852",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 150
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 95,
+      "creation_date": "2013-04-29T04:34:36.368",
+      "modification_date": "2013-04-29T04:34:36.368",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 151
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 96,
+      "creation_date": "2013-04-29T15:56:23.103",
+      "modification_date": "2013-04-29T15:56:23.103",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 152
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 96,
+      "creation_date": "2013-04-29T15:56:23.110",
+      "modification_date": "2013-04-29T15:56:23.110",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 153
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 97,
+      "creation_date": "2013-04-29T15:57:29.453",
+      "modification_date": "2013-04-29T15:57:29.453",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 154
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 98,
+      "creation_date": "2013-04-30T20:17:31.386",
+      "modification_date": "2013-04-30T20:17:31.386",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 155
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 99,
+      "creation_date": "2013-05-01T00:31:54.382",
+      "modification_date": "2013-05-01T00:31:54.382",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 156
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 100,
+      "creation_date": "2013-05-01T00:52:29.599",
+      "modification_date": "2013-05-01T00:52:29.599",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 157
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 101,
+      "creation_date": "2013-05-01T01:10:32.782",
+      "modification_date": "2013-05-01T01:10:32.782",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 158
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 102,
+      "creation_date": "2013-05-01T01:21:29.338",
+      "modification_date": "2013-05-01T01:21:29.338",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 159
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 103,
+      "creation_date": "2013-05-01T01:24:44.190",
+      "modification_date": "2013-05-01T01:24:44.190",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 160
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 104,
+      "creation_date": "2013-05-01T01:29:15.931",
+      "modification_date": "2013-05-01T01:29:15.931",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 161
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 105,
+      "creation_date": "2013-05-01T01:35:19.408",
+      "modification_date": "2013-05-01T01:35:19.408",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 162
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 106,
+      "creation_date": "2013-05-02T21:41:28.359",
+      "modification_date": "2013-05-02T21:41:28.359",
+      "product": 42
+    },
+    "model": "cart.cartitem",
+    "pk": 163
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 107,
+      "creation_date": "2013-05-04T00:06:44.913",
+      "modification_date": "2013-05-04T00:06:44.913",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 164
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 108,
+      "creation_date": "2013-05-04T00:33:21.929",
+      "modification_date": "2013-05-04T00:33:21.929",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 165
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.364",
+      "modification_date": "2013-05-04T02:45:17.364",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 166
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.371",
+      "modification_date": "2013-05-04T02:45:17.371",
+      "product": 19
+    },
+    "model": "cart.cartitem",
+    "pk": 167
+  },
+  {
+    "fields": {
+      "amount": 6.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.377",
+      "modification_date": "2013-05-04T02:45:17.377",
+      "product": 21
+    },
+    "model": "cart.cartitem",
+    "pk": 168
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.384",
+      "modification_date": "2013-05-04T02:45:17.384",
+      "product": 23
+    },
+    "model": "cart.cartitem",
+    "pk": 169
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.390",
+      "modification_date": "2013-05-04T02:45:17.390",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 170
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.397",
+      "modification_date": "2013-05-04T02:45:17.397",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 171
+  },
+  {
+    "fields": {
+      "amount": 0.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.403",
+      "modification_date": "2013-05-04T02:45:17.403",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 172
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.409",
+      "modification_date": "2013-05-04T02:45:17.409",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 173
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 109,
+      "creation_date": "2013-05-04T02:45:17.505",
+      "modification_date": "2013-05-04T02:45:17.505",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 174
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 110,
+      "creation_date": "2013-05-04T06:59:16.102",
+      "modification_date": "2013-05-04T06:59:16.102",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 175
+  },
+  {
+    "fields": {
+      "amount": 10.0,
+      "cart": 110,
+      "creation_date": "2013-05-04T06:59:16.108",
+      "modification_date": "2013-05-04T06:59:16.108",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 176
+  },
+  {
+    "fields": {
+      "amount": 5.0,
+      "cart": 110,
+      "creation_date": "2013-05-04T06:59:16.114",
+      "modification_date": "2013-05-04T06:59:16.114",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 177
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 110,
+      "creation_date": "2013-05-04T06:59:16.120",
+      "modification_date": "2013-05-04T06:59:16.120",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 178
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 110,
+      "creation_date": "2013-05-04T06:59:16.126",
+      "modification_date": "2013-05-04T06:59:16.126",
+      "product": 18
+    },
+    "model": "cart.cartitem",
+    "pk": 179
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 111,
+      "creation_date": "2013-05-04T07:08:57.000",
+      "modification_date": "2013-05-04T07:08:57.000",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 180
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.852",
+      "modification_date": "2013-05-06T02:52:52.852",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 181
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.859",
+      "modification_date": "2013-05-06T02:52:52.859",
+      "product": 19
+    },
+    "model": "cart.cartitem",
+    "pk": 182
+  },
+  {
+    "fields": {
+      "amount": 6.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.865",
+      "modification_date": "2013-05-06T02:52:52.865",
+      "product": 21
+    },
+    "model": "cart.cartitem",
+    "pk": 183
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.931",
+      "modification_date": "2013-05-06T02:52:52.931",
+      "product": 23
+    },
+    "model": "cart.cartitem",
+    "pk": 184
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.937",
+      "modification_date": "2013-05-06T02:52:52.937",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 185
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.943",
+      "modification_date": "2013-05-06T02:52:52.943",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 186
+  },
+  {
+    "fields": {
+      "amount": 0.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.950",
+      "modification_date": "2013-05-06T02:52:52.950",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 187
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.956",
+      "modification_date": "2013-05-06T02:52:52.956",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 188
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.962",
+      "modification_date": "2013-05-06T02:52:52.962",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 189
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.968",
+      "modification_date": "2013-05-06T02:52:52.968",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 190
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:52.981",
+      "modification_date": "2013-05-06T02:52:52.981",
+      "product": 5
+    },
+    "model": "cart.cartitem",
+    "pk": 191
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 112,
+      "creation_date": "2013-05-06T02:52:53.086",
+      "modification_date": "2013-05-06T02:52:53.086",
+      "product": 8
+    },
+    "model": "cart.cartitem",
+    "pk": 192
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.472",
+      "modification_date": "2013-05-06T02:57:25.472",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 193
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.479",
+      "modification_date": "2013-05-06T02:57:25.479",
+      "product": 19
+    },
+    "model": "cart.cartitem",
+    "pk": 194
+  },
+  {
+    "fields": {
+      "amount": 6.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.485",
+      "modification_date": "2013-05-06T02:57:25.485",
+      "product": 21
+    },
+    "model": "cart.cartitem",
+    "pk": 195
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.491",
+      "modification_date": "2013-05-06T02:57:25.491",
+      "product": 23
+    },
+    "model": "cart.cartitem",
+    "pk": 196
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.497",
+      "modification_date": "2013-05-06T02:57:25.497",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 197
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.503",
+      "modification_date": "2013-05-06T02:57:25.503",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 198
+  },
+  {
+    "fields": {
+      "amount": 0.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.509",
+      "modification_date": "2013-05-06T02:57:25.509",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 199
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.515",
+      "modification_date": "2013-05-06T02:57:25.515",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 200
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.521",
+      "modification_date": "2013-05-06T02:57:25.521",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 201
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.527",
+      "modification_date": "2013-05-06T02:57:25.527",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 202
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.533",
+      "modification_date": "2013-05-06T02:57:25.533",
+      "product": 5
+    },
+    "model": "cart.cartitem",
+    "pk": 203
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 113,
+      "creation_date": "2013-05-06T02:57:25.538",
+      "modification_date": "2013-05-06T02:57:25.538",
+      "product": 8
+    },
+    "model": "cart.cartitem",
+    "pk": 204
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 114,
+      "creation_date": "2013-05-06T08:58:10.865",
+      "modification_date": "2013-05-06T08:58:10.865",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 205
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 114,
+      "creation_date": "2013-05-06T08:58:10.872",
+      "modification_date": "2013-05-06T08:58:10.872",
+      "product": 18
+    },
+    "model": "cart.cartitem",
+    "pk": 206
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 114,
+      "creation_date": "2013-05-06T08:58:10.880",
+      "modification_date": "2013-05-06T08:58:10.880",
+      "product": 23
+    },
+    "model": "cart.cartitem",
+    "pk": 207
+  },
+  {
+    "fields": {
+      "amount": 5.0,
+      "cart": 114,
+      "creation_date": "2013-05-06T08:58:10.948",
+      "modification_date": "2013-05-06T08:58:10.948",
+      "product": 37
+    },
+    "model": "cart.cartitem",
+    "pk": 208
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 114,
+      "creation_date": "2013-05-06T08:58:10.955",
+      "modification_date": "2013-05-06T08:58:10.955",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 209
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 114,
+      "creation_date": "2013-05-06T08:58:10.962",
+      "modification_date": "2013-05-06T08:58:10.962",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 210
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 115,
+      "creation_date": "2013-05-06T17:20:39.831",
+      "modification_date": "2013-05-06T17:20:39.831",
+      "product": 42
+    },
+    "model": "cart.cartitem",
+    "pk": 211
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 115,
+      "creation_date": "2013-05-06T17:20:39.838",
+      "modification_date": "2013-05-06T17:20:39.838",
+      "product": 15
+    },
+    "model": "cart.cartitem",
+    "pk": 212
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 116,
+      "creation_date": "2013-05-07T19:41:07.289",
+      "modification_date": "2013-05-07T19:41:07.289",
+      "product": 17
+    },
+    "model": "cart.cartitem",
+    "pk": 213
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.527",
+      "modification_date": "2013-05-12T18:04:20.527",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 214
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.534",
+      "modification_date": "2013-05-12T18:04:20.534",
+      "product": 19
+    },
+    "model": "cart.cartitem",
+    "pk": 215
+  },
+  {
+    "fields": {
+      "amount": 6.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.540",
+      "modification_date": "2013-05-12T18:04:20.540",
+      "product": 21
+    },
+    "model": "cart.cartitem",
+    "pk": 216
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.546",
+      "modification_date": "2013-05-12T18:04:20.546",
+      "product": 23
+    },
+    "model": "cart.cartitem",
+    "pk": 217
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.552",
+      "modification_date": "2013-05-12T18:04:20.552",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 218
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.558",
+      "modification_date": "2013-05-12T18:04:20.558",
+      "product": 1
+    },
+    "model": "cart.cartitem",
+    "pk": 219
+  },
+  {
+    "fields": {
+      "amount": 0.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.564",
+      "modification_date": "2013-05-12T18:04:20.564",
+      "product": 9
+    },
+    "model": "cart.cartitem",
+    "pk": 220
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.569",
+      "modification_date": "2013-05-12T18:04:20.569",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 221
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.575",
+      "modification_date": "2013-05-12T18:04:20.575",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 222
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.581",
+      "modification_date": "2013-05-12T18:04:20.581",
+      "product": 6
+    },
+    "model": "cart.cartitem",
+    "pk": 223
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.587",
+      "modification_date": "2013-05-12T18:04:20.587",
+      "product": 5
+    },
+    "model": "cart.cartitem",
+    "pk": 224
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 117,
+      "creation_date": "2013-05-12T18:04:20.593",
+      "modification_date": "2013-05-12T18:04:20.593",
+      "product": 8
+    },
+    "model": "cart.cartitem",
+    "pk": 225
+  },
+  {
+    "fields": {
+      "amount": 4.0,
+      "cart": 118,
+      "creation_date": "2013-05-18T02:04:27.331",
+      "modification_date": "2013-05-18T02:04:27.331",
+      "product": 22
+    },
+    "model": "cart.cartitem",
+    "pk": 226
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 119,
+      "creation_date": "2013-05-18T02:21:14.215",
+      "modification_date": "2013-05-18T02:21:14.215",
+      "product": 32
+    },
+    "model": "cart.cartitem",
+    "pk": 227
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 119,
+      "creation_date": "2013-05-18T02:21:14.222",
+      "modification_date": "2013-05-18T02:21:14.222",
+      "product": 34
+    },
+    "model": "cart.cartitem",
+    "pk": 228
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 119,
+      "creation_date": "2013-05-18T02:21:14.228",
+      "modification_date": "2013-05-18T02:21:14.228",
+      "product": 29
+    },
+    "model": "cart.cartitem",
+    "pk": 229
+  },
+  {
+    "fields": {
+      "amount": 3.0,
+      "cart": 119,
+      "creation_date": "2013-05-18T02:21:14.234",
+      "modification_date": "2013-05-18T02:21:14.234",
+      "product": 12
+    },
+    "model": "cart.cartitem",
+    "pk": 230
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 120,
+      "creation_date": "2013-05-20T18:49:42.401",
+      "modification_date": "2013-05-20T18:49:42.401",
+      "product": 2
+    },
+    "model": "cart.cartitem",
+    "pk": 231
+  },
+  {
+    "fields": {
+      "amount": 5.0,
+      "cart": 121,
+      "creation_date": "2013-05-22T20:19:56.061",
+      "modification_date": "2013-05-22T20:20:29.057",
+      "product": 36
+    },
+    "model": "cart.cartitem",
+    "pk": 232
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 122,
+      "creation_date": "2013-05-22T21:41:32.184",
+      "modification_date": "2013-05-22T21:41:32.184",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 233
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 123,
+      "creation_date": "2013-05-22T23:35:57.362",
+      "modification_date": "2013-05-22T23:35:57.362",
+      "product": 35
+    },
+    "model": "cart.cartitem",
+    "pk": 234
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 123,
+      "creation_date": "2013-05-22T23:35:57.369",
+      "modification_date": "2013-05-22T23:35:57.369",
+      "product": 42
+    },
+    "model": "cart.cartitem",
+    "pk": 235
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 124,
+      "creation_date": "2013-05-22T23:36:38.665",
+      "modification_date": "2013-05-22T23:36:38.665",
+      "product": 39
+    },
+    "model": "cart.cartitem",
+    "pk": 236
+  },
+  {
+    "fields": {
+      "amount": 2.0,
+      "cart": 125,
+      "creation_date": "2013-05-23T01:18:44.589",
+      "modification_date": "2013-05-23T01:18:44.589",
+      "product": 3
+    },
+    "model": "cart.cartitem",
+    "pk": 237
+  },
+  {
+    "fields": {
+      "amount": 1.0,
+      "cart": 126,
+      "creation_date": "2013-05-23T20:44:23.342",
+      "modification_date": "2013-05-23T20:44:23.342",
+      "product": 30
+    },
+    "model": "cart.cartitem",
+    "pk": 238
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 1,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Drinks",
+      "parent": null,
+      "position": 10,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "drinks",
+      "static_block": null,
+      "template": null,
+      "uid": "f3736167-c294-44c8-8935-862a093b8fee"
+    },
+    "model": "catalog.category",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Cordials",
+      "parent": 5,
+      "position": 20,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        41,
+        37
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "cordials",
+      "static_block": null,
+      "template": null,
+      "uid": "048e97fa-bdc9-43da-a528-59de9cf6002f"
+    },
+    "model": "catalog.category",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Cocktails",
+      "parent": 5,
+      "position": 30,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        42,
+        40,
+        38,
+        39
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "cocktails",
+      "static_block": null,
+      "template": null,
+      "uid": "3227c0c1-7c2c-42a5-ad3b-93619b9514f7"
+    },
+    "model": "catalog.category",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "White Wine",
+      "parent": 5,
+      "position": 40,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "white-wine",
+      "static_block": null,
+      "template": null,
+      "uid": "1aa6e7c0-40d6-479e-abaf-d5044bd00a9c"
+    },
+    "model": "catalog.category",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Red Wine",
+      "parent": 5,
+      "position": 50,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        6,
+        5,
+        7,
+        8
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "red-wine",
+      "static_block": null,
+      "template": null,
+      "uid": "680cc429-49b2-46a7-8231-f10ae0c8826f"
+    },
+    "model": "catalog.category",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Champagne",
+      "parent": 5,
+      "position": 60,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        9,
+        10
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "champagne",
+      "static_block": null,
+      "template": null,
+      "uid": "c1d6aacf-31e5-4155-9631-8d799f717718"
+    },
+    "model": "catalog.category",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Beer",
+      "parent": 5,
+      "position": 70,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        17,
+        15,
+        12,
+        13,
+        11,
+        16,
+        14
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "beer",
+      "static_block": null,
+      "template": null,
+      "uid": "8dcd30c9-0e84-40eb-aaf5-c37b145d3c90"
+    },
+    "model": "catalog.category",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 2,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Non-alcoholic",
+      "parent": 5,
+      "position": 80,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "non-alcoholic",
+      "static_block": null,
+      "template": null,
+      "uid": "d308684d-b479-460c-89a1-0e528bd0955f"
+    },
+    "model": "catalog.category",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 3,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Soft Drinks",
+      "parent": 7,
+      "position": 90,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        22,
+        19,
+        21,
+        18,
+        20
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "soft-drinks",
+      "static_block": null,
+      "template": null,
+      "uid": "4d8bda78-6297-4e15-a3cc-8f4d403ff7f7"
+    },
+    "model": "catalog.category",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 3,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Juice, Water and Coffee",
+      "parent": 7,
+      "position": 100,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        23
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "juice-and-water",
+      "static_block": null,
+      "template": null,
+      "uid": "b1a3efbf-82b6-46ac-8548-add172ca5137"
+    },
+    "model": "catalog.category",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "active_formats": false,
+      "category_cols": 3,
+      "description": "",
+      "exclude_from_navigation": false,
+      "image": "",
+      "level": 1,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Food",
+      "parent": null,
+      "position": 110,
+      "product_cols": 3,
+      "product_rows": 3,
+      "products": [
+        32,
+        35,
+        34,
+        36,
+        30,
+        29,
+        31,
+        33
+      ],
+      "short_description": "",
+      "show_all_products": true,
+      "slug": "food",
+      "static_block": null,
+      "template": null,
+      "uid": "86709684-96c6-43db-8c0d-2790302868b7"
+    },
+    "model": "catalog.category",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:21:50.098",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Amstel Light",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "amstel-light",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "dd374587-6bbd-4033-ae2b-50d8fe5d5515",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:01:46.799",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 4.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Aquafina",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 4.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "aquafina",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "707345d7-c281-4d67-8d99-a85669d12c86",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:27:15.596",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 8.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Artisan Cheese Plate",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 8.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "artisan-cheese-plate",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "8876da7f-6ffa-4313-8c47-8733db5375e4",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-04-03T15:04:43.664",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Bailey's Irish Cream",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "baileys-irish-cream",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "889a48b4-2e21-47b4-9270-9eec6ef273a6",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:19:44.649",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Brooklyn Lager",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "brooklyn-lager",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "b2e90c94-0453-4417-b769-44f970465888",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:05:21.179",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 6.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Bud Light",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 6.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "bud-light",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "316c5507-5fe5-48c5-a995-a891aab829a9",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:05:48.706",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 6.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Bud Light Platinum",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 6.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "bud-light-platinum",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "622fbd94-9557-4c15-ae79-cdfc2c3a208a",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:02:20.169",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 6.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Budweiser",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 6.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "budweiser",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "3d270aad-e9d4-4b15-ae21-f96c659b77e0",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:28:51.626",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 5.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Candy Bars",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 5.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "candy-bars",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "bd7ed216-7f44-47cd-8807-6a241dc780c8",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:28:36.581",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 4.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Cheesecake Brownie w/Assorted Candies",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 4.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "cheesecake-brownie-wassorted-candies",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "fccf42d8-a4a9-4e01-a3ec-2d6bada2dcdb",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:30:00.757",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 5.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Chocolate Covered Strawberries",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 5.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "chocolate-covered-strawberries",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "ee46d201-40dd-461b-8542-e47aaefa4c2f",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-04-03T16:36:00.100",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 8.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Cosmopolitan",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 8.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "cosmopolitan",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "41f499c9-2dd5-4e6e-89a2-4866d45752e4",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:19:04.526",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 4.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Cranberry Juice",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 4.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "cranberry-juice",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "2ef9dc62-a6ec-4798-8ffc-582284b82a7c",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:26:50.475",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 6.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Cured Meats with Baguette",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 6.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "cured-meats-baguette",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "bac9dfdc-7ddc-4aac-be7e-56e6fc5732fe",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:39:44.416",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 3.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Diet Dr. Pepper",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 3.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "diet-dr-pepper",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "42510b7a-8153-4476-b7de-047d694c02cc",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:26:30.992",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 3.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Diet Pepsi",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 3.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "diet-pepsi",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "efeb43bb-0fe8-466e-a902-a12791b27d55",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:35:23.337",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 8.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Domaine St. Michelle",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 8.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "<p>Dry to medium dry Aromas of pear and pineapple Crisp green apple and a toast coconut finish Pair with Brie, chocolate desserts or creamy dishes</p>",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "domaine-st-michelle",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "9e4ef775-c7f6-4e1b-bb0c-48af08ce82c5",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:38:34.835",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 3.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Dr. Pepper",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 3.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "dr-pepper",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "0ab45766-a7b2-4e9e-860a-0ee330f460f3",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-04-03T01:04:04.259",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 8.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Gin and Tonic",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 8.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "gin-and-tonic",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "7c273869-b799-41b3-9958-cdad6b010e71",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:20:26.949",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 4.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Grapefruit Juice",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 4.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "grapefruit-juice",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "8dd8c7b4-3c76-42a4-bde2-0ee513def90e",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-20T15:03:32.402",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 10.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Grey Goose Martini",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 10.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "grey-goose-martini",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "05a6f198-05db-4d48-bb03-316263c3e100",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:40:31.555",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 0.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Gruet",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 0.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "<p>Our flagship sparkling wine. Known for its classic, crisp style with rich complexity and a fine mousse.</p>",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "gruet",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "9fcec724-a994-4c02-b482-e18532ff3b72",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:27:40.984",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>Cabernet Sauvignon is the noblest of grape varieties and Guenoc California Cabernet shows &ldquo;respect&rdquo; by putting the fruit front and center.&nbsp; Classic red and black cherry are surrounded by cushiony tannins.&nbsp; The coronation is a whisper of vanilla oak on the finish&hellip; all hail king Cab!</p>",
+      "effective_price": 8.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Guenoc Cabernet",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 8.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "guenoc-cabernet",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "4632160b-d87d-49de-b41b-2292eb8237c3",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:14:37.007",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>Versatility has made Chardonnay the undisputed heavyweight champion of California white wines. Guenoc Chardonnay is crafted to find the balance between acidity and richness. Enjoy the harmony of ripe tropical fruit, vanilla oak and citrus peel&hellip; ABC&rsquo;ers look out!</p>\n<p>ABC&rsquo;ers stands for &ldquo;Anything But Chardonnay&rdquo; and because of the availability of the varietal, there are some who feel Chardonnay is just too boring.&nbsp; Nothing could be further from the truth.&nbsp; Good Chardonnay is a thing of beauty and very difficult to achieve.&nbsp; It takes winemaking skill to get the most fruit possible while accompanying it with a touch of barrel influenced, ML induced wine.&nbsp; We hope you appreciate the effort!</p>",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Guenoc Chardonnay",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "guenoc-chardonnay",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "fbe694e7-6b46-421f-a0cc-27f7083c9619",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:26:19.359",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>Bullied and accused, the only crime Merlot has committed is that of luxury.&nbsp; The suppleness of Merlot can not be denied, this Guenoc California Merlot offers ample textured tannins to drape the cherry and dark chocolate flavor&hellip; Merlot is back!&nbsp; Since the 2004 release of the movie &ldquo;Sideways&rdquo; Merlot sales have suffered.&nbsp; For the savvy oenophile the result has been almost a decade of great value.&nbsp; Merlot, at its finest, is perhaps the best of the Bordeaux grapes.&nbsp; The Guenoc California Selection Merlot continues this value stream and rewards those who break from the herd.</p>",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Guenoc Merlot",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "guenoc-merlot",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "253608c4-9e17-4cd9-bd5a-48fe00817040",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:20:36.353",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>Like many old world traditions in America, Guenoc California Pinot Grigio takes this popular white variety of Italy and gives it a California style all its own.&nbsp; Instead of &ldquo;bone dry&rdquo; this floral, aromatic wine finishes sweet-tart and brings flavors of honeydew melon and lemon grass&hellip; prego!</p>\n<p>Blended with a touch of Moscatto to enhance the fruit and bring out a touch of sweetness, the Guenoc California Selection Pinot Grigio is a true California original.</p>",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Guenoc Pinot Grigio",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "guenoc-pinot-grigio",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "f7355525-a14b-4d23-a603-00d3a5af63d3",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:18:16.775",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>The tropical flavors&nbsp;created by California sunshine separate&nbsp;Guenoc&nbsp;Sauvignon Blanc from the rest of the world.&nbsp; Leaving the grassy characters &ldquo;down under&rdquo; we craft our Sauvignon Blanc to enhance the mouthwatering flavors of grapefruit, pineapple and mango&hellip; don&rsquo;t forget your sunscreen!</p>\n<p>The protected in-land valleys of California get plenty of sunshine and the Guenoc Valley is no exception.&nbsp; Every day during the growing season, temperatures fluctuate nearly 50 degrees from a peak of nearly 100&deg;F down to 50&deg;F at night.&nbsp; The warm temperatures ripen the fruit and allow the pyrazines (the cut grass, green pepper or jalape&ntilde;o flavors) to change into tropical notes, while the diurnal low temps keep the acidity bright.&nbsp; Warm climate SB has all the pineapple, guava and mango of a fruit smoothie!</p>",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Guenoc Sauvignon Blanc",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "guenoc-sauvignon-blanc",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "493fc659-ba9f-4672-ae37-f63899b2aeab",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:21:09.436",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Heineken",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "heineken",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "fc349b88-05e4-40dc-8d84-418ef136aef3",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:26:16.388",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 6.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Hummus and Chips",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 6.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "hummus-and-chips",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "8704bdaf-6222-490b-addb-23f620be256f",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-20T14:58:23.062",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 9.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Kahlua",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 9.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "<p>Coffee liquer</p>",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "kahlua",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "d59ce59d-5861-4769-93f1-d1f397265725",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-04-02T21:54:31.578",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 8.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Michter's (Bourbon) Neat",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 8.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "michters-bourbon-neat",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "d094203d-3a53-4eff-85b3-03ee8c39855e",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:19:31.981",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 4.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Orange Juice",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 4.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "orange-juice",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "be71deda-e1b6-4ea7-aa04-f6b9a7973098",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:25:24.042",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 3.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Pepsi",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 3.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "pepsi",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "a3bf33d1-86d1-40ae-b409-e9b6041c44f1",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:21:03.685",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 4.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Pineapple Juice",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 4.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "pineapple-juice",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "21e1ebcf-a6ab-48e6-8c29-a24a9ffa0adb",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:28:54.908",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>The 2010 vintage started with a cool and fairly wet spring that remained mostly frost free. The late rains generated a healthy canopy, but one that required careful management to avoid green flavors. The cool spring evolved into an exceptionally cool summer, punctuated by a three-day heat spike in August which reduced yields in many varieties. September and October, however, were warm, giving us the ripeness we were waiting for, and we harvested the last of our Cabernet on October 27th.</p>",
+      "effective_price": 9.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Rodney Strong Cabernet",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 9.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "<p>Bold fruit aromas and flavors centered on red plum and boysenberry, and a rich and mouthfilling texture with soft tannins.</p>",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "rodney-strong-cabernet",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "f97d95fd-c58c-4073-8c5f-640f5b70be32",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:22:52.091",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>The 2011 vintage started off cool and damp, with little to no frost.&nbsp; late rains continued until July, with almost two inches of rain in the month of June. The end of the rainy season led to a cool weather pattern for most of the summer, With average high temperatures around 80 degrees for both July and August. The heat finally returned in&nbsp; September, with one six day stretch of temperatures in the 90s, exactly what the vintage needed, and we harvested the last of our Chalk Hill Chardonnay on September 27th under ideal conditions.</p>",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Rodney Strong Chardonnay",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "<p>Creamy and crisp, with abundant fruit character, mineral and toasty oak flavors.</p>",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "rodney-strong-chardonnay",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "25cf544d-b48a-4870-9fa7-02debdd54b3d",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T13:30:37.001",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "<p>Rod Strong was among the first modern wine pioneers with a vision to plant Pinot Noir in the Russian River Valley. in 1968, he planted our heritage River East Vineyard in the alluvial clay-loam soils adjacent to the winery in Healdsburg. Today the Russian River Valley is well established as one of the premier Pinot Noir growing regions in the world and we continue to rely on the original River East Vineyard as a core contributor to our estate vineyard bottling.</p>",
+      "effective_price": 9.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Rodney Strong Pinot Noir",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 9.0,
+      "price_calculation": "",
+      "price_calculator": "lfs.net_price.NetPriceCalculator",
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "<p>Soft and silky, with intriguing floral and crushed pomegranate aromas, this medium bodied wine was aged for nine months in small, French oak barrels which added a hint of toasty vanilla and spice complexity.</p>",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "rodney-strong-pinot-noir",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": 1,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "dd11ee31-b9b9-48c0-90cd-e8ff44e38558",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:27:46.980",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 3.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Sierra Mist",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 3.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "sierra-mist",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "6b169709-276a-4777-861d-43a794c2d2d8",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T14:17:34.228",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 7.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Spaten",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 7.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "spaten",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "1da86728-ea07-41ce-943d-1338c295e208",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:27:02.837",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 6.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Tarragon Chicken Salad",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 6.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "tarragon-chicken-salad",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "af0bcdf5-23a0-48aa-a7eb-28e20b23a323",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:28:14.756",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 2.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "White Cheddar Popcorn",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 2.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "white-cheddar-popcorn",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "4b556a08-ecd6-4c5c-abf5-911f63acb45d",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "active": true,
+      "active_accessories": false,
+      "active_base_price": 0,
+      "active_description": false,
+      "active_dimensions": false,
+      "active_for_sale": 0,
+      "active_for_sale_price": false,
+      "active_images": false,
+      "active_meta_description": false,
+      "active_meta_keywords": false,
+      "active_meta_title": false,
+      "active_name": false,
+      "active_packing_unit": 0,
+      "active_price": false,
+      "active_price_calculation": false,
+      "active_related_products": false,
+      "active_short_description": false,
+      "active_sku": false,
+      "active_static_block": false,
+      "base_price_amount": 0.0,
+      "base_price_unit": "",
+      "category_variant": null,
+      "creation_date": "2013-03-07T15:16:08.260",
+      "default_variant": null,
+      "deliverable": true,
+      "delivery_time": null,
+      "description": "",
+      "effective_price": 3.0,
+      "for_sale": false,
+      "for_sale_price": 0.0,
+      "height": 0.0,
+      "length": 0.0,
+      "manage_stock_amount": false,
+      "manual_delivery_time": false,
+      "manufacturer": null,
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<name>",
+      "name": "Wolfgang Puck Coffee",
+      "order_time": null,
+      "ordered_at": null,
+      "packing_unit": null,
+      "packing_unit_unit": "",
+      "parent": null,
+      "price": 3.0,
+      "price_calculation": "",
+      "price_calculator": null,
+      "price_unit": "",
+      "related_products": [],
+      "short_description": "",
+      "sku": "",
+      "sku_manufacturer": "",
+      "slug": "wolfgang-puck-coffee",
+      "static_block": null,
+      "stock_amount": 0.0,
+      "sub_type": "0",
+      "supplier": null,
+      "tax": null,
+      "template": 0,
+      "type_of_quantity_field": null,
+      "uid": "c9b3ca17-5788-4c03-bce7-2f85677d14db",
+      "unit": "",
+      "variant_position": 999,
+      "variants_display_type": 0,
+      "weight": 0.0,
+      "width": 0.0
+    },
+    "model": "catalog.product",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "content_id": 10,
+      "content_type": 28,
+      "image": "images/B_Brut_sm.png",
+      "position": 10,
+      "title": "B_Brut_sm.png"
+    },
+    "model": "catalog.image",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "content_id": 1,
+      "content_type": 28,
+      "image": "images/guenoc_chardonnary.jpeg",
+      "position": 10,
+      "title": "guenoc_chardonnary.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "content_id": 2,
+      "content_type": 28,
+      "image": "images/guenoc_sauvignon_blanc.jpeg",
+      "position": 10,
+      "title": "guenoc_sauvignon_blanc.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "content_id": 3,
+      "content_type": 28,
+      "image": "images/guenoc_pinot_grigio.jpeg",
+      "position": 10,
+      "title": "guenoc_pinot_grigio.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "content_id": 4,
+      "content_type": 28,
+      "image": "images/2010-rodney-strong-estate-chardonnay-sonoma-coast-beautyshot-72ppi.jpg",
+      "position": 10,
+      "title": "2010-rodney-strong-estate-chardonnay-sonoma-coast-beautyshot-72ppi.jpg"
+    },
+    "model": "catalog.image",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "content_id": 5,
+      "content_type": 28,
+      "image": "images/guenoc_merlot.jpeg",
+      "position": 10,
+      "title": "guenoc_merlot.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "content_id": 6,
+      "content_type": 28,
+      "image": "images/guenoc_cabernet.jpeg",
+      "position": 10,
+      "title": "guenoc_cabernet.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "content_id": 7,
+      "content_type": 28,
+      "image": "images/2010-rodney-strong-estate-cabernet-sauvignon-alexander-valley-beautyshot-72ppi.jpg",
+      "position": 10,
+      "title": "2010-rodney-strong-estate-cabernet-sauvignon-alexander-valley-beautyshot-72ppi.jpg"
+    },
+    "model": "catalog.image",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "content_id": 8,
+      "content_type": 28,
+      "image": "images/2010-rodney-strong-estate-pinot-noir-sonoma-coast-beautyshot-72ppi.jpg",
+      "position": 10,
+      "title": "2010-rodney-strong-estate-pinot-noir-sonoma-coast-beautyshot-72ppi.jpg"
+    },
+    "model": "catalog.image",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "content_id": 9,
+      "content_type": 28,
+      "image": "images/ste_michelle.jpeg",
+      "position": 10,
+      "title": "ste_michelle.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "content_id": 11,
+      "content_type": 28,
+      "image": "images/budweiser.jpeg",
+      "position": 10,
+      "title": "budweiser.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "content_id": 12,
+      "content_type": 28,
+      "image": "images/bud_light.jpeg",
+      "position": 10,
+      "title": "bud_light.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "content_id": 13,
+      "content_type": 28,
+      "image": "images/bud_light_platinum.jpeg",
+      "position": 10,
+      "title": "bud_light_platinum.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "content_id": 14,
+      "content_type": 28,
+      "image": "images/spaten.jpeg",
+      "position": 10,
+      "title": "spaten.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "content_id": 15,
+      "content_type": 28,
+      "image": "images/broolyn_lager.jpeg",
+      "position": 10,
+      "title": "broolyn_lager.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "content_id": 16,
+      "content_type": 28,
+      "image": "images/heineken.jpeg",
+      "position": 10,
+      "title": "heineken.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "content_id": 17,
+      "content_type": 28,
+      "image": "images/amstel_light.jpeg",
+      "position": 10,
+      "title": "amstel_light.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "content_id": 18,
+      "content_type": 28,
+      "image": "images/pepsi.jpeg",
+      "position": 10,
+      "title": "pepsi.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "content_id": 19,
+      "content_type": 28,
+      "image": "images/diet_pepsi.jpeg",
+      "position": 10,
+      "title": "diet_pepsi.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "content_id": 20,
+      "content_type": 28,
+      "image": "images/sierra_mist.jpeg",
+      "position": 10,
+      "title": "sierra_mist.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "content_id": 21,
+      "content_type": 28,
+      "image": "images/dr_pepper.jpeg",
+      "position": 10,
+      "title": "dr_pepper.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "content_id": 22,
+      "content_type": 28,
+      "image": "images/diet_pepsi_1.jpeg",
+      "position": 10,
+      "title": "diet_pepsi.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "content_id": 23,
+      "content_type": 28,
+      "image": "images/aquafina.jpeg",
+      "position": 10,
+      "title": "aquafina.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "content_id": 24,
+      "content_type": 28,
+      "image": "images/coffee.jpeg",
+      "position": 10,
+      "title": "coffee.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "content_id": 26,
+      "content_type": 28,
+      "image": "images/orange_juice.jpeg",
+      "position": 10,
+      "title": "orange_juice.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "content_id": 27,
+      "content_type": 28,
+      "image": "images/grapefruit_juice.jpeg",
+      "position": 10,
+      "title": "grapefruit_juice.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "content_id": 28,
+      "content_type": 28,
+      "image": "images/pineapple_juice.jpeg",
+      "position": 10,
+      "title": "pineapple_juice.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "content_id": 25,
+      "content_type": 28,
+      "image": "images/cran_juice.jpeg",
+      "position": 10,
+      "title": "cran_juice.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "content_id": 29,
+      "content_type": 28,
+      "image": "images/hummus_chips.jpeg",
+      "position": 10,
+      "title": "hummus_chips.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "content_id": 30,
+      "content_type": 28,
+      "image": "images/cured_meats.jpeg",
+      "position": 10,
+      "title": "cured_meats.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "content_id": 31,
+      "content_type": 28,
+      "image": "images/tarragon_chicken.jpeg",
+      "position": 10,
+      "title": "tarragon_chicken.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "content_id": 32,
+      "content_type": 28,
+      "image": "images/cheese_plate.jpeg",
+      "position": 10,
+      "title": "cheese_plate.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "content_id": 33,
+      "content_type": 28,
+      "image": "images/popcorn.jpeg",
+      "position": 10,
+      "title": "popcorn.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "content_id": 34,
+      "content_type": 28,
+      "image": "images/cheesecake.jpeg",
+      "position": 10,
+      "title": "cheesecake.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "content_id": 35,
+      "content_type": 28,
+      "image": "images/candy_bars.jpeg",
+      "position": 10,
+      "title": "candy_bars.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "content_id": 36,
+      "content_type": 28,
+      "image": "images/choc_covered_strawberries.jpeg",
+      "position": 10,
+      "title": "choc_covered_strawberries.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "content_id": 37,
+      "content_type": 28,
+      "image": "images/kahlua.jpeg",
+      "position": 10,
+      "title": "kahlua.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "content_id": 38,
+      "content_type": 28,
+      "image": "images/grey_goose.jpeg",
+      "position": 10,
+      "title": "grey_goose.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "content_id": 39,
+      "content_type": 28,
+      "image": "images/michters_bourbon.jpeg",
+      "position": 10,
+      "title": "michters_bourbon.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "content_id": 40,
+      "content_type": 28,
+      "image": "images/gin_and_tonic.jpeg",
+      "position": 10,
+      "title": "gin_and_tonic.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "content_id": 41,
+      "content_type": 28,
+      "image": "images/baileys.jpeg",
+      "position": 10,
+      "title": "baileys.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "content_id": 42,
+      "content_type": 28,
+      "image": "images/cosmo.jpeg",
+      "position": 10,
+      "title": "cosmo.jpeg"
+    },
+    "model": "catalog.image",
+    "pk": 43
+  },
+  {
+    "fields": {
+      "description": "",
+      "max": 2.0,
+      "min": 1.0,
+      "unit": 2
+    },
+    "model": "catalog.deliverytime",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "method": "export",
+      "module": "lfs.export.generic",
+      "name": "Generic"
+    },
+    "model": "export.script",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "body": "",
+      "exclude_from_navigation": true,
+      "file": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<title>",
+      "position": 999,
+      "short_text": "",
+      "slug": "",
+      "title": "Root"
+    },
+    "model": "page.page",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "body": "Enter your terms and conditions here.",
+      "exclude_from_navigation": false,
+      "file": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<title>",
+      "position": 999,
+      "short_text": "",
+      "slug": "terms-and-conditions",
+      "title": "Terms and Conditions"
+    },
+    "model": "page.page",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "active": true,
+      "body": "Enter your imprint here.",
+      "exclude_from_navigation": false,
+      "file": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "meta_title": "<title>",
+      "position": 999,
+      "short_text": "",
+      "slug": "imprint",
+      "title": "Imprint"
+    },
+    "model": "page.page",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "active": true,
+      "deletable": false,
+      "description": "",
+      "image": "",
+      "module": "",
+      "name": "Direct debit",
+      "note": "",
+      "price": 0.0,
+      "priority": 1,
+      "tax": null,
+      "type": 1
+    },
+    "model": "payment.paymentmethod",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "deletable": false,
+      "description": "",
+      "image": "",
+      "module": "",
+      "name": "Cash on delivery",
+      "note": "",
+      "price": 0.0,
+      "priority": 2,
+      "tax": null,
+      "type": 0
+    },
+    "model": "payment.paymentmethod",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "active": true,
+      "deletable": false,
+      "description": "",
+      "image": "",
+      "module": "lfs_paypal.PayPalProcessor",
+      "name": "PayPal",
+      "note": "",
+      "price": 0.0,
+      "priority": 3,
+      "tax": null,
+      "type": 0
+    },
+    "model": "payment.paymentmethod",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "active": true,
+      "deletable": false,
+      "description": "",
+      "image": "",
+      "module": "",
+      "name": "Prepayment",
+      "note": "",
+      "price": 0.0,
+      "priority": 4,
+      "tax": null,
+      "type": 0
+    },
+    "model": "payment.paymentmethod",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "title": "Cart"
+    },
+    "model": "portlet.cartportlet",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "expand_level": 1,
+      "start_level": 1,
+      "title": "Categories"
+    },
+    "model": "portlet.categoriesportlet",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "title": "Information"
+    },
+    "model": "portlet.pagesportlet",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "active": true,
+      "delivery_time": null,
+      "description": "",
+      "image": "",
+      "name": "Standard",
+      "note": "",
+      "price": 0.0,
+      "price_calculator": "lfs.shipping.GrossShippingMethodPriceCalculator",
+      "priority": 1,
+      "tax": null
+    },
+    "model": "shipping.shippingmethod",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "description": "<p>Dallas area sales tax on products and drinks</p>",
+      "rate": 8.25
+    },
+    "model": "tax.tax",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "format": "",
+      "last": 0
+    },
+    "model": "lfs_order_numbers.ordernumbergenerator",
+    "pk": "order_number"
+  },
+  {
+    "fields": {
+      "date_joined": "2012-09-24T15:16:53.993",
+      "email": "jgoodleaf@stadi.us",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "last_login": "2013-04-27T23:15:54.588",
+      "last_name": "",
+      "password": "pbkdf2_sha256$10000$YzzK37HkRMhZ$YcxGLlRZMNVVmWCHR8bBQnzenYMbma4y331nrliC0Uk=",
+      "user_permissions": [],
+      "username": "jgoodleaf"
+    },
+    "model": "auth.user",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "date_joined": "2012-10-05T10:05:52",
+      "email": "",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "last_login": "2012-10-05T19:52:55.862",
+      "last_name": "",
+      "password": "pbkdf2_sha256$10000$lLYDvi3R9gY7$OQmBU4QlCrTr/xq5EwE9qxhYfd6VBAwF/adj7rcpZ28=",
+      "user_permissions": [],
+      "username": "hoatlevan"
+    },
+    "model": "auth.user",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "ia_content_type": 18,
+      "ia_object_id": 1,
+      "sa_content_type": 18,
+      "sa_object_id": 2,
+      "selected_bank_account": null,
+      "selected_country": null,
+      "selected_credit_card": null,
+      "selected_payment_method": 1,
+      "selected_shipping_method": 1,
+      "session": "965e2420109067f0e9f1c09a48cb05fe",
+      "user": null
+    },
+    "model": "customer.customer",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "ia_content_type": 18,
+      "ia_object_id": 3,
+      "sa_content_type": 18,
+      "sa_object_id": 4,
+      "selected_bank_account": null,
+      "selected_country": null,
+      "selected_credit_card": null,
+      "selected_payment_method": 1,
+      "selected_shipping_method": 1,
+      "session": "d9b515d00fdc0cb45ee299394837536d",
+      "user": null
+    },
+    "model": "customer.customer",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "ia_content_type": 18,
+      "ia_object_id": 5,
+      "sa_content_type": 18,
+      "sa_object_id": 6,
+      "selected_bank_account": null,
+      "selected_country": 1,
+      "selected_credit_card": null,
+      "selected_payment_method": 1,
+      "selected_shipping_method": 1,
+      "session": "0a3a8a9149a1024f932ed76a68d6eabc",
+      "user": null
+    },
+    "model": "customer.customer",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "action_flag": 2,
+      "action_time": "2012-10-05T10:06:16.900",
+      "change_message": "Changed password, is_staff and is_superuser.",
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "hoatlevan",
+      "user": 1
+    },
+    "model": "admin.logentry",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "action_flag": 1,
+      "action_time": "2012-10-05T10:05:52.843",
+      "change_message": "",
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "hoatlevan",
+      "user": 1
+    },
+    "model": "admin.logentry",
+    "pk": 1
+  }
+]
