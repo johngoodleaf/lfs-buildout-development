@@ -10,7 +10,7 @@ django-pagination>=0.1
 django-paypal>=0.1
 django-postal>=0.1
 django-tagging>=0.1
-django-tastypie>=0.9.16
+django-tastypie==0.9.16
 django-timelog>=0.1
 gunicorn>=0.1
 requests>=0.1
