@@ -33,5 +33,5 @@ git+https://github.com/diefenbach/lfs-order-numbers.git
 git+https://github.com/diefenbach/lfs-paypal.git
 git+https://github.com/diefenbach/lfs-bench.git
 git+https://github.com/diefenbach/lfs-criterion-us-states
-git+https://github.com/jgoodleaf/lfs-rest.git@feature/category-tree-view#egg=lfs_rest
+git+https://github.com/johngoodleaf/lfs-rest.git@feature/category-tree-view#egg=lfs_rest
 
